@@ -21,9 +21,9 @@ addi $s2, $zero, 15
 addi $t0, $zero, 0 #index or offset in $t0
 
 sw   $s0, myarray($t0) #inserting the element in s0 to array
-	addi $t0, $zero, 4 #incrementing the counter by 1
+	addi $t0, $t0, 4 #incrementing the counter by 1
 sw   $s1, myarray($t0) #inserting second element into the array
-	addi $t0, $zero, 4 #incrementing the counter by 1
+	addi $t0, $t0, 4 #incrementing the counter by 1
 sw   $s2, myarray($t0) #inserting third element into the array
 
 addi $t3, $zero, 0
